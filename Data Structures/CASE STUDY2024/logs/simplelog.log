@@ -1,0 +1,2380 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-10-29T04:03:35.653421500Z</date>
+  <millis>1730174615653</millis>
+  <nanos>421500</nanos>
+  <sequence>0</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Function call added: methodA -&gt; methodA</message>
+</record>
+<record>
+  <date>2024-10-29T04:03:35.857011200Z</date>
+  <millis>1730174615857</millis>
+  <nanos>11200</nanos>
+  <sequence>1</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Function call added: methodB -&gt; methodB</message>
+</record>
+<record>
+  <date>2024-10-29T04:03:36.038088900Z</date>
+  <millis>1730174616038</millis>
+  <nanos>88900</nanos>
+  <sequence>2</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>No breakpoints set.</message>
+</record>
+<record>
+  <date>2024-10-29T04:03:36.173108900Z</date>
+  <millis>1730174616173</millis>
+  <nanos>108900</nanos>
+  <sequence>3</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Function called: methodB</message>
+</record>
+<record>
+  <date>2024-10-29T04:03:36.426155300Z</date>
+  <millis>1730174616426</millis>
+  <nanos>155300</nanos>
+  <sequence>4</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Current Call Stack: [methodB]</message>
+</record>
+<record>
+  <date>2024-10-29T04:03:36.521650500Z</date>
+  <millis>1730174616521</millis>
+  <nanos>650500</nanos>
+  <sequence>5</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Called Functions: [methodB]</message>
+</record>
+<record>
+  <date>2024-10-29T04:03:36.796783700Z</date>
+  <millis>1730174616796</millis>
+  <nanos>783700</nanos>
+  <sequence>6</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Stepping into: methodB</message>
+</record>
+<record>
+  <date>2024-10-29T04:03:36.926889600Z</date>
+  <millis>1730174616926</millis>
+  <nanos>889600</nanos>
+  <sequence>7</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>No breakpoints set.</message>
+</record>
+<record>
+  <date>2024-10-29T04:03:36.982893100Z</date>
+  <millis>1730174616982</millis>
+  <nanos>893100</nanos>
+  <sequence>8</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Function called: methodA</message>
+</record>
+<record>
+  <date>2024-10-29T04:03:37.068621100Z</date>
+  <millis>1730174617068</millis>
+  <nanos>621100</nanos>
+  <sequence>9</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Current Call Stack: [methodB, methodA]</message>
+</record>
+<record>
+  <date>2024-10-29T04:03:37.093633Z</date>
+  <millis>1730174617093</millis>
+  <nanos>633000</nanos>
+  <sequence>10</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Called Functions: [methodA]</message>
+</record>
+<record>
+  <date>2024-10-29T04:03:37.133543400Z</date>
+  <millis>1730174617133</millis>
+  <nanos>543400</nanos>
+  <sequence>11</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Stepping over: methodA</message>
+</record>
+<record>
+  <date>2024-10-29T04:03:37.174486700Z</date>
+  <millis>1730174617174</millis>
+  <nanos>486700</nanos>
+  <sequence>12</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Stepping out of current function.</message>
+</record>
+<record>
+  <date>2024-10-29T04:03:37.207543100Z</date>
+  <millis>1730174617207</millis>
+  <nanos>543100</nanos>
+  <sequence>13</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Variable 'x' added with initial value: 10</message>
+</record>
+<record>
+  <date>2024-10-29T04:03:37.261409Z</date>
+  <millis>1730174617261</millis>
+  <nanos>409000</nanos>
+  <sequence>14</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Breakpoint set at line: 1</message>
+</record>
+<record>
+  <date>2024-10-29T04:03:37.332768200Z</date>
+  <millis>1730174617332</millis>
+  <nanos>768200</nanos>
+  <sequence>15</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Variable 'x' updated: Assignment at line 1 -&gt; 15</message>
+</record>
+<record>
+  <date>2024-10-29T04:03:37.349007300Z</date>
+  <millis>1730174617349</millis>
+  <nanos>7300</nanos>
+  <sequence>16</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Updated Variable: x, New Value: 15</message>
+</record>
+<record>
+  <date>2024-10-29T04:03:37.355145600Z</date>
+  <millis>1730174617355</millis>
+  <nanos>145600</nanos>
+  <sequence>17</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Current Breakpoints:</message>
+</record>
+<record>
+  <date>2024-10-29T04:03:37.363553200Z</date>
+  <millis>1730174617363</millis>
+  <nanos>553200</nanos>
+  <sequence>18</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Breakpoint Id: 1</message>
+</record>
+<record>
+  <date>2024-10-29T04:03:37.382925100Z</date>
+  <millis>1730174617382</millis>
+  <nanos>925100</nanos>
+  <sequence>19</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Breakpoint set at line: 1</message>
+</record>
+<record>
+  <date>2024-10-29T04:03:37.422732100Z</date>
+  <millis>1730174617422</millis>
+  <nanos>732100</nanos>
+  <sequence>20</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>History of 'x':</message>
+</record>
+<record>
+  <date>2024-10-29T04:03:37.437825Z</date>
+  <millis>1730174617437</millis>
+  <nanos>825000</nanos>
+  <sequence>21</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>  - Initialized: 10</message>
+</record>
+<record>
+  <date>2024-10-29T04:03:37.444652700Z</date>
+  <millis>1730174617444</millis>
+  <nanos>652700</nanos>
+  <sequence>22</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>  - Assignment at line 1: 15</message>
+</record>
+<record>
+  <date>2024-10-29T04:03:37.457052Z</date>
+  <millis>1730174617457</millis>
+  <nanos>52000</nanos>
+  <sequence>23</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Current value of 'x': 15</message>
+</record>
+<record>
+  <date>2024-10-29T04:03:37.492341100Z</date>
+  <millis>1730174617492</millis>
+  <nanos>341100</nanos>
+  <sequence>24</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Added thread: Low Priority Task with priority: 2</message>
+</record>
+<record>
+  <date>2024-10-29T04:03:37.504858200Z</date>
+  <millis>1730174617504</millis>
+  <nanos>858200</nanos>
+  <sequence>25</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Added thread: High Priority Task with priority: 1</message>
+</record>
+<record>
+  <date>2024-10-29T04:03:38.055036900Z</date>
+  <millis>1730174618055</millis>
+  <nanos>36900</nanos>
+  <sequence>26</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Thread finished: High Priority Task</message>
+</record>
+<record>
+  <date>2024-10-29T04:03:39.114114200Z</date>
+  <millis>1730174619114</millis>
+  <nanos>114200</nanos>
+  <sequence>27</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Thread finished: Low Priority Task</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-10-29T04:09:59.839633300Z</date>
+  <millis>1730174999839</millis>
+  <nanos>633300</nanos>
+  <sequence>0</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Function call added: methodA -&gt; methodA</message>
+</record>
+<record>
+  <date>2024-10-29T04:09:59.972614400Z</date>
+  <millis>1730174999972</millis>
+  <nanos>614400</nanos>
+  <sequence>1</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Function call added: methodB -&gt; methodB</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:00.043613300Z</date>
+  <millis>1730175000043</millis>
+  <nanos>613300</nanos>
+  <sequence>2</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>No breakpoints set.</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:00.077614900Z</date>
+  <millis>1730175000077</millis>
+  <nanos>614900</nanos>
+  <sequence>3</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Function called: methodB</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:00.114609800Z</date>
+  <millis>1730175000114</millis>
+  <nanos>609800</nanos>
+  <sequence>4</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Current Call Stack: [methodB]</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:00.146554Z</date>
+  <millis>1730175000146</millis>
+  <nanos>554000</nanos>
+  <sequence>5</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Called Functions: [methodB]</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:00.177576800Z</date>
+  <millis>1730175000177</millis>
+  <nanos>576800</nanos>
+  <sequence>6</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Stepping into: methodB</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:00.212564Z</date>
+  <millis>1730175000212</millis>
+  <nanos>564000</nanos>
+  <sequence>7</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>No breakpoints set.</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:00.252867800Z</date>
+  <millis>1730175000252</millis>
+  <nanos>867800</nanos>
+  <sequence>8</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Function called: methodA</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:00.285880700Z</date>
+  <millis>1730175000285</millis>
+  <nanos>880700</nanos>
+  <sequence>9</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Current Call Stack: [methodB, methodA]</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:00.297870400Z</date>
+  <millis>1730175000297</millis>
+  <nanos>870400</nanos>
+  <sequence>10</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Called Functions: [methodA]</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:00.317867700Z</date>
+  <millis>1730175000317</millis>
+  <nanos>867700</nanos>
+  <sequence>11</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Stepping over: methodA</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:00.336881200Z</date>
+  <millis>1730175000336</millis>
+  <nanos>881200</nanos>
+  <sequence>12</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Stepping out of current function.</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:00.370858800Z</date>
+  <millis>1730175000370</millis>
+  <nanos>858800</nanos>
+  <sequence>13</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Variable 'x' added with initial value: 10</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:00.392625800Z</date>
+  <millis>1730175000392</millis>
+  <nanos>625800</nanos>
+  <sequence>14</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Breakpoint set at line: 1</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:00.449631Z</date>
+  <millis>1730175000449</millis>
+  <nanos>631000</nanos>
+  <sequence>15</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Variable 'x' updated: Assignment at line 1 -&gt; 15</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:00.462641400Z</date>
+  <millis>1730175000462</millis>
+  <nanos>641400</nanos>
+  <sequence>16</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Updated Variable: x, New Value: 15</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:00.478290900Z</date>
+  <millis>1730175000478</millis>
+  <nanos>290900</nanos>
+  <sequence>17</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Current Breakpoints:</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:00.514293600Z</date>
+  <millis>1730175000514</millis>
+  <nanos>293600</nanos>
+  <sequence>18</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Breakpoint Id: 1</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:00.552288300Z</date>
+  <millis>1730175000552</millis>
+  <nanos>288300</nanos>
+  <sequence>19</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Breakpoint set at line: 1</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:00.582294700Z</date>
+  <millis>1730175000582</millis>
+  <nanos>294700</nanos>
+  <sequence>20</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>History of 'x':</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:00.603288500Z</date>
+  <millis>1730175000603</millis>
+  <nanos>288500</nanos>
+  <sequence>21</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>  - Initialized: 10</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:00.619301800Z</date>
+  <millis>1730175000619</millis>
+  <nanos>301800</nanos>
+  <sequence>22</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>  - Assignment at line 1: 15</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:00.632285100Z</date>
+  <millis>1730175000632</millis>
+  <nanos>285100</nanos>
+  <sequence>23</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Current value of 'x': 15</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:00.698292600Z</date>
+  <millis>1730175000698</millis>
+  <nanos>292600</nanos>
+  <sequence>24</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Added thread: Low Priority Task with priority: 2</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:00.707284Z</date>
+  <millis>1730175000707</millis>
+  <nanos>284000</nanos>
+  <sequence>25</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Added thread: High Priority Task with priority: 1</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:01.287879Z</date>
+  <millis>1730175001287</millis>
+  <nanos>879000</nanos>
+  <sequence>26</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Thread finished: High Priority Task</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:02.365364200Z</date>
+  <millis>1730175002365</millis>
+  <nanos>364200</nanos>
+  <sequence>27</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Thread finished: Low Priority Task</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-10-29T04:10:15.398628900Z</date>
+  <millis>1730175015398</millis>
+  <nanos>628900</nanos>
+  <sequence>0</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Function call added: methodA -&gt; methodA</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:15.530639300Z</date>
+  <millis>1730175015530</millis>
+  <nanos>639300</nanos>
+  <sequence>1</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Function call added: methodB -&gt; methodB</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:15.583718500Z</date>
+  <millis>1730175015583</millis>
+  <nanos>718500</nanos>
+  <sequence>2</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>No breakpoints set.</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:15.592127500Z</date>
+  <millis>1730175015592</millis>
+  <nanos>127500</nanos>
+  <sequence>3</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Function called: methodB</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:15.619885100Z</date>
+  <millis>1730175015619</millis>
+  <nanos>885100</nanos>
+  <sequence>4</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Current Call Stack: [methodB]</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:15.634154300Z</date>
+  <millis>1730175015634</millis>
+  <nanos>154300</nanos>
+  <sequence>5</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Called Functions: [methodB]</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:15.648251600Z</date>
+  <millis>1730175015648</millis>
+  <nanos>251600</nanos>
+  <sequence>6</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Stepping into: methodB</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:15.658747Z</date>
+  <millis>1730175015658</millis>
+  <nanos>747000</nanos>
+  <sequence>7</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>No breakpoints set.</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:15.693853Z</date>
+  <millis>1730175015693</millis>
+  <nanos>853000</nanos>
+  <sequence>8</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Function called: methodA</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:15.709693Z</date>
+  <millis>1730175015709</millis>
+  <nanos>693000</nanos>
+  <sequence>9</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Current Call Stack: [methodB, methodA]</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:15.716141300Z</date>
+  <millis>1730175015716</millis>
+  <nanos>141300</nanos>
+  <sequence>10</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Called Functions: [methodA]</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:15.725572200Z</date>
+  <millis>1730175015725</millis>
+  <nanos>572200</nanos>
+  <sequence>11</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Stepping over: methodA</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:15.732850500Z</date>
+  <millis>1730175015732</millis>
+  <nanos>850500</nanos>
+  <sequence>12</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Stepping out of current function.</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:15.767958700Z</date>
+  <millis>1730175015767</millis>
+  <nanos>958700</nanos>
+  <sequence>13</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Variable 'x' added with initial value: 10</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:15.799767900Z</date>
+  <millis>1730175015799</millis>
+  <nanos>767900</nanos>
+  <sequence>14</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Breakpoint set at line: 1</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:15.876267900Z</date>
+  <millis>1730175015876</millis>
+  <nanos>267900</nanos>
+  <sequence>15</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Variable 'x' updated: Assignment at line 1 -&gt; 15</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:15.881982600Z</date>
+  <millis>1730175015881</millis>
+  <nanos>982600</nanos>
+  <sequence>16</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Updated Variable: x, New Value: 15</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:15.900282500Z</date>
+  <millis>1730175015900</millis>
+  <nanos>282500</nanos>
+  <sequence>17</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Current Breakpoints:</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:15.908318500Z</date>
+  <millis>1730175015908</millis>
+  <nanos>318500</nanos>
+  <sequence>18</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Breakpoint Id: 1</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:15.917765600Z</date>
+  <millis>1730175015917</millis>
+  <nanos>765600</nanos>
+  <sequence>19</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Breakpoint set at line: 1</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:15.936851600Z</date>
+  <millis>1730175015936</millis>
+  <nanos>851600</nanos>
+  <sequence>20</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>History of 'x':</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:15.949990900Z</date>
+  <millis>1730175015949</millis>
+  <nanos>990900</nanos>
+  <sequence>21</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>  - Initialized: 10</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:15.966646100Z</date>
+  <millis>1730175015966</millis>
+  <nanos>646100</nanos>
+  <sequence>22</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>  - Assignment at line 1: 15</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:15.974892400Z</date>
+  <millis>1730175015974</millis>
+  <nanos>892400</nanos>
+  <sequence>23</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Current value of 'x': 15</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:16.001549500Z</date>
+  <millis>1730175016001</millis>
+  <nanos>549500</nanos>
+  <sequence>24</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Added thread: Low Priority Task with priority: 2</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:16.014510300Z</date>
+  <millis>1730175016014</millis>
+  <nanos>510300</nanos>
+  <sequence>25</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Added thread: High Priority Task with priority: 1</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:16.528804500Z</date>
+  <millis>1730175016528</millis>
+  <nanos>804500</nanos>
+  <sequence>26</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Thread finished: High Priority Task</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:17.562931300Z</date>
+  <millis>1730175017562</millis>
+  <nanos>931300</nanos>
+  <sequence>27</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Thread finished: Low Priority Task</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-10-29T04:10:26.918142600Z</date>
+  <millis>1730175026918</millis>
+  <nanos>142600</nanos>
+  <sequence>0</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Function call added: methodA -&gt; methodA</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:27.096007700Z</date>
+  <millis>1730175027096</millis>
+  <nanos>7700</nanos>
+  <sequence>1</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Function call added: methodB -&gt; methodB</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:27.195103Z</date>
+  <millis>1730175027195</millis>
+  <nanos>103000</nanos>
+  <sequence>2</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>No breakpoints set.</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:27.239919700Z</date>
+  <millis>1730175027239</millis>
+  <nanos>919700</nanos>
+  <sequence>3</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Function called: methodB</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:27.256908400Z</date>
+  <millis>1730175027256</millis>
+  <nanos>908400</nanos>
+  <sequence>4</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Current Call Stack: [methodB]</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:27.270914800Z</date>
+  <millis>1730175027270</millis>
+  <nanos>914800</nanos>
+  <sequence>5</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Called Functions: [methodB]</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:27.282953500Z</date>
+  <millis>1730175027282</millis>
+  <nanos>953500</nanos>
+  <sequence>6</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Stepping into: methodB</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:27.302541200Z</date>
+  <millis>1730175027302</millis>
+  <nanos>541200</nanos>
+  <sequence>7</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>No breakpoints set.</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:27.316528700Z</date>
+  <millis>1730175027316</millis>
+  <nanos>528700</nanos>
+  <sequence>8</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Function called: methodA</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:27.331264100Z</date>
+  <millis>1730175027331</millis>
+  <nanos>264100</nanos>
+  <sequence>9</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Current Call Stack: [methodB, methodA]</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:27.364547100Z</date>
+  <millis>1730175027364</millis>
+  <nanos>547100</nanos>
+  <sequence>10</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Called Functions: [methodA]</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:27.379269100Z</date>
+  <millis>1730175027379</millis>
+  <nanos>269100</nanos>
+  <sequence>11</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Stepping over: methodA</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:27.413625900Z</date>
+  <millis>1730175027413</millis>
+  <nanos>625900</nanos>
+  <sequence>12</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Stepping out of current function.</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:27.439070300Z</date>
+  <millis>1730175027439</millis>
+  <nanos>70300</nanos>
+  <sequence>13</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Variable 'x' added with initial value: 10</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:27.472704700Z</date>
+  <millis>1730175027472</millis>
+  <nanos>704700</nanos>
+  <sequence>14</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Breakpoint set at line: 1</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:27.514237100Z</date>
+  <millis>1730175027514</millis>
+  <nanos>237100</nanos>
+  <sequence>15</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Variable 'x' updated: Assignment at line 1 -&gt; 15</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:27.514237100Z</date>
+  <millis>1730175027514</millis>
+  <nanos>237100</nanos>
+  <sequence>16</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Updated Variable: x, New Value: 15</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:27.552036700Z</date>
+  <millis>1730175027552</millis>
+  <nanos>36700</nanos>
+  <sequence>17</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Current Breakpoints:</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:27.572404800Z</date>
+  <millis>1730175027572</millis>
+  <nanos>404800</nanos>
+  <sequence>18</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Breakpoint Id: 1</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:27.587794400Z</date>
+  <millis>1730175027587</millis>
+  <nanos>794400</nanos>
+  <sequence>19</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Breakpoint set at line: 1</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:27.598096400Z</date>
+  <millis>1730175027598</millis>
+  <nanos>96400</nanos>
+  <sequence>20</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>History of 'x':</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:27.613975600Z</date>
+  <millis>1730175027613</millis>
+  <nanos>975600</nanos>
+  <sequence>21</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>  - Initialized: 10</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:27.641078200Z</date>
+  <millis>1730175027641</millis>
+  <nanos>78200</nanos>
+  <sequence>22</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>  - Assignment at line 1: 15</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:27.656389900Z</date>
+  <millis>1730175027656</millis>
+  <nanos>389900</nanos>
+  <sequence>23</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Current value of 'x': 15</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:27.708642900Z</date>
+  <millis>1730175027708</millis>
+  <nanos>642900</nanos>
+  <sequence>24</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Added thread: Low Priority Task with priority: 2</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:27.713627200Z</date>
+  <millis>1730175027713</millis>
+  <nanos>627200</nanos>
+  <sequence>25</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Added thread: High Priority Task with priority: 1</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:28.248665200Z</date>
+  <millis>1730175028248</millis>
+  <nanos>665200</nanos>
+  <sequence>26</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Thread finished: High Priority Task</message>
+</record>
+<record>
+  <date>2024-10-29T04:10:29.285828100Z</date>
+  <millis>1730175029285</millis>
+  <nanos>828100</nanos>
+  <sequence>27</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Thread finished: Low Priority Task</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-10-29T04:14:38.580379100Z</date>
+  <millis>1730175278580</millis>
+  <nanos>379100</nanos>
+  <sequence>0</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Function call added: methodA -&gt; methodA</message>
+</record>
+<record>
+  <date>2024-10-29T04:14:38.739979500Z</date>
+  <millis>1730175278739</millis>
+  <nanos>979500</nanos>
+  <sequence>1</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Function call added: methodB -&gt; methodB</message>
+</record>
+<record>
+  <date>2024-10-29T04:14:38.801831700Z</date>
+  <millis>1730175278801</millis>
+  <nanos>831700</nanos>
+  <sequence>2</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>No breakpoints set.</message>
+</record>
+<record>
+  <date>2024-10-29T04:14:38.819837Z</date>
+  <millis>1730175278819</millis>
+  <nanos>837000</nanos>
+  <sequence>3</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Function called: methodB</message>
+</record>
+<record>
+  <date>2024-10-29T04:14:38.847829800Z</date>
+  <millis>1730175278847</millis>
+  <nanos>829800</nanos>
+  <sequence>4</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Current Call Stack: [methodB]</message>
+</record>
+<record>
+  <date>2024-10-29T04:14:38.861832800Z</date>
+  <millis>1730175278861</millis>
+  <nanos>832800</nanos>
+  <sequence>5</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Called Functions: [methodB]</message>
+</record>
+<record>
+  <date>2024-10-29T04:14:38.873825200Z</date>
+  <millis>1730175278873</millis>
+  <nanos>825200</nanos>
+  <sequence>6</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Stepping into: methodB</message>
+</record>
+<record>
+  <date>2024-10-29T04:14:38.893830700Z</date>
+  <millis>1730175278893</millis>
+  <nanos>830700</nanos>
+  <sequence>7</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>No breakpoints set.</message>
+</record>
+<record>
+  <date>2024-10-29T04:14:38.905829900Z</date>
+  <millis>1730175278905</millis>
+  <nanos>829900</nanos>
+  <sequence>8</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Function called: methodA</message>
+</record>
+<record>
+  <date>2024-10-29T04:14:38.922833900Z</date>
+  <millis>1730175278922</millis>
+  <nanos>833900</nanos>
+  <sequence>9</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Current Call Stack: [methodB, methodA]</message>
+</record>
+<record>
+  <date>2024-10-29T04:14:38.931836800Z</date>
+  <millis>1730175278931</millis>
+  <nanos>836800</nanos>
+  <sequence>10</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Called Functions: [methodA]</message>
+</record>
+<record>
+  <date>2024-10-29T04:14:38.943839200Z</date>
+  <millis>1730175278943</millis>
+  <nanos>839200</nanos>
+  <sequence>11</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Stepping over: methodA</message>
+</record>
+<record>
+  <date>2024-10-29T04:14:38.965834500Z</date>
+  <millis>1730175278965</millis>
+  <nanos>834500</nanos>
+  <sequence>12</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Stepping out of current function.</message>
+</record>
+<record>
+  <date>2024-10-29T04:14:38.982837Z</date>
+  <millis>1730175278982</millis>
+  <nanos>837000</nanos>
+  <sequence>13</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Variable 'x' added with initial value: 10</message>
+</record>
+<record>
+  <date>2024-10-29T04:14:39.014843400Z</date>
+  <millis>1730175279014</millis>
+  <nanos>843400</nanos>
+  <sequence>14</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Breakpoint set at line: 1</message>
+</record>
+<record>
+  <date>2024-10-29T04:14:39.061835200Z</date>
+  <millis>1730175279061</millis>
+  <nanos>835200</nanos>
+  <sequence>15</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Variable 'x' updated: Assignment at line 1 -&gt; 15</message>
+</record>
+<record>
+  <date>2024-10-29T04:14:39.073834400Z</date>
+  <millis>1730175279073</millis>
+  <nanos>834400</nanos>
+  <sequence>16</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Updated Variable: x, New Value: 15</message>
+</record>
+<record>
+  <date>2024-10-29T04:14:39.085840900Z</date>
+  <millis>1730175279085</millis>
+  <nanos>840900</nanos>
+  <sequence>17</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Current Breakpoints:</message>
+</record>
+<record>
+  <date>2024-10-29T04:14:39.093825200Z</date>
+  <millis>1730175279093</millis>
+  <nanos>825200</nanos>
+  <sequence>18</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Breakpoint Id: 1</message>
+</record>
+<record>
+  <date>2024-10-29T04:14:39.106830800Z</date>
+  <millis>1730175279106</millis>
+  <nanos>830800</nanos>
+  <sequence>19</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Breakpoint set at line: 1</message>
+</record>
+<record>
+  <date>2024-10-29T04:14:39.137831300Z</date>
+  <millis>1730175279137</millis>
+  <nanos>831300</nanos>
+  <sequence>20</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>History of 'x':</message>
+</record>
+<record>
+  <date>2024-10-29T04:14:39.154852700Z</date>
+  <millis>1730175279154</millis>
+  <nanos>852700</nanos>
+  <sequence>21</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>  - Initialized: 10</message>
+</record>
+<record>
+  <date>2024-10-29T04:14:39.171825400Z</date>
+  <millis>1730175279171</millis>
+  <nanos>825400</nanos>
+  <sequence>22</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>  - Assignment at line 1: 15</message>
+</record>
+<record>
+  <date>2024-10-29T04:14:39.179830300Z</date>
+  <millis>1730175279179</millis>
+  <nanos>830300</nanos>
+  <sequence>23</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Current value of 'x': 15</message>
+</record>
+<record>
+  <date>2024-10-29T04:14:39.215843700Z</date>
+  <millis>1730175279215</millis>
+  <nanos>843700</nanos>
+  <sequence>24</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Added thread: Low Priority Task with priority: 2</message>
+</record>
+<record>
+  <date>2024-10-29T04:14:39.223827800Z</date>
+  <millis>1730175279223</millis>
+  <nanos>827800</nanos>
+  <sequence>25</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Added thread: High Priority Task with priority: 1</message>
+</record>
+<record>
+  <date>2024-10-29T04:14:39.754301300Z</date>
+  <millis>1730175279754</millis>
+  <nanos>301300</nanos>
+  <sequence>26</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Thread finished: High Priority Task</message>
+</record>
+<record>
+  <date>2024-10-29T04:14:40.784633500Z</date>
+  <millis>1730175280784</millis>
+  <nanos>633500</nanos>
+  <sequence>27</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Thread finished: Low Priority Task</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-10-29T04:17:37.912439800Z</date>
+  <millis>1730175457912</millis>
+  <nanos>439800</nanos>
+  <sequence>0</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Function call added: methodA -&gt; methodA</message>
+</record>
+<record>
+  <date>2024-10-29T04:17:38.102355700Z</date>
+  <millis>1730175458102</millis>
+  <nanos>355700</nanos>
+  <sequence>1</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Function call added: methodB -&gt; methodB</message>
+</record>
+<record>
+  <date>2024-10-29T04:17:38.402641900Z</date>
+  <millis>1730175458402</millis>
+  <nanos>641900</nanos>
+  <sequence>2</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>No breakpoints set.</message>
+</record>
+<record>
+  <date>2024-10-29T04:17:38.509504100Z</date>
+  <millis>1730175458509</millis>
+  <nanos>504100</nanos>
+  <sequence>3</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Function called: methodB</message>
+</record>
+<record>
+  <date>2024-10-29T04:17:38.548547700Z</date>
+  <millis>1730175458548</millis>
+  <nanos>547700</nanos>
+  <sequence>4</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Current Call Stack: [methodB]</message>
+</record>
+<record>
+  <date>2024-10-29T04:17:38.570193400Z</date>
+  <millis>1730175458570</millis>
+  <nanos>193400</nanos>
+  <sequence>5</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Called Functions: [methodB]</message>
+</record>
+<record>
+  <date>2024-10-29T04:17:38.607929400Z</date>
+  <millis>1730175458607</millis>
+  <nanos>929400</nanos>
+  <sequence>6</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Stepping into: methodB</message>
+</record>
+<record>
+  <date>2024-10-29T04:17:38.640842500Z</date>
+  <millis>1730175458640</millis>
+  <nanos>842500</nanos>
+  <sequence>7</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>No breakpoints set.</message>
+</record>
+<record>
+  <date>2024-10-29T04:17:38.664491200Z</date>
+  <millis>1730175458664</millis>
+  <nanos>491200</nanos>
+  <sequence>8</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Function called: methodA</message>
+</record>
+<record>
+  <date>2024-10-29T04:17:38.696014Z</date>
+  <millis>1730175458696</millis>
+  <nanos>14000</nanos>
+  <sequence>9</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Current Call Stack: [methodB, methodA]</message>
+</record>
+<record>
+  <date>2024-10-29T04:17:38.708428700Z</date>
+  <millis>1730175458708</millis>
+  <nanos>428700</nanos>
+  <sequence>10</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Called Functions: [methodA]</message>
+</record>
+<record>
+  <date>2024-10-29T04:17:38.808026300Z</date>
+  <millis>1730175458808</millis>
+  <nanos>26300</nanos>
+  <sequence>11</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Stepping over: methodA</message>
+</record>
+<record>
+  <date>2024-10-29T04:17:38.829858Z</date>
+  <millis>1730175458829</millis>
+  <nanos>858000</nanos>
+  <sequence>12</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Stepping out of current function.</message>
+</record>
+<record>
+  <date>2024-10-29T04:17:38.918720900Z</date>
+  <millis>1730175458918</millis>
+  <nanos>720900</nanos>
+  <sequence>13</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Variable 'x' added with initial value: 10</message>
+</record>
+<record>
+  <date>2024-10-29T04:17:38.990035900Z</date>
+  <millis>1730175458990</millis>
+  <nanos>35900</nanos>
+  <sequence>14</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Breakpoint set at line: 1</message>
+</record>
+<record>
+  <date>2024-10-29T04:17:39.041283100Z</date>
+  <millis>1730175459041</millis>
+  <nanos>283100</nanos>
+  <sequence>15</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Variable 'x' updated: Assignment at line 1 -&gt; 15</message>
+</record>
+<record>
+  <date>2024-10-29T04:17:39.051345800Z</date>
+  <millis>1730175459051</millis>
+  <nanos>345800</nanos>
+  <sequence>16</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Updated Variable: x, New Value: 15</message>
+</record>
+<record>
+  <date>2024-10-29T04:17:39.064475600Z</date>
+  <millis>1730175459064</millis>
+  <nanos>475600</nanos>
+  <sequence>17</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Current Breakpoints:</message>
+</record>
+<record>
+  <date>2024-10-29T04:17:39.080820500Z</date>
+  <millis>1730175459080</millis>
+  <nanos>820500</nanos>
+  <sequence>18</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Breakpoint Id: 1</message>
+</record>
+<record>
+  <date>2024-10-29T04:17:39.095268900Z</date>
+  <millis>1730175459095</millis>
+  <nanos>268900</nanos>
+  <sequence>19</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Breakpoint set at line: 1</message>
+</record>
+<record>
+  <date>2024-10-29T04:17:39.115874500Z</date>
+  <millis>1730175459115</millis>
+  <nanos>874500</nanos>
+  <sequence>20</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>History of 'x':</message>
+</record>
+<record>
+  <date>2024-10-29T04:17:39.143652500Z</date>
+  <millis>1730175459143</millis>
+  <nanos>652500</nanos>
+  <sequence>21</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>  - Initialized: 10</message>
+</record>
+<record>
+  <date>2024-10-29T04:17:39.159049700Z</date>
+  <millis>1730175459159</millis>
+  <nanos>49700</nanos>
+  <sequence>22</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>  - Assignment at line 1: 15</message>
+</record>
+<record>
+  <date>2024-10-29T04:17:39.164934300Z</date>
+  <millis>1730175459164</millis>
+  <nanos>934300</nanos>
+  <sequence>23</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Current value of 'x': 15</message>
+</record>
+<record>
+  <date>2024-10-29T04:17:39.210054700Z</date>
+  <millis>1730175459210</millis>
+  <nanos>54700</nanos>
+  <sequence>24</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Added thread: Low Priority Task with priority: 2</message>
+</record>
+<record>
+  <date>2024-10-29T04:17:39.222390700Z</date>
+  <millis>1730175459222</millis>
+  <nanos>390700</nanos>
+  <sequence>25</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Added thread: High Priority Task with priority: 1</message>
+</record>
+<record>
+  <date>2024-10-29T04:17:39.742925200Z</date>
+  <millis>1730175459742</millis>
+  <nanos>925200</nanos>
+  <sequence>26</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Thread finished: High Priority Task</message>
+</record>
+<record>
+  <date>2024-10-29T04:17:40.785005Z</date>
+  <millis>1730175460785</millis>
+  <nanos>5000</nanos>
+  <sequence>27</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Thread finished: Low Priority Task</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-10-29T06:33:12.333242Z</date>
+  <millis>1730183592333</millis>
+  <nanos>242000</nanos>
+  <sequence>0</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Function call added: methodA -&gt; methodA</message>
+</record>
+<record>
+  <date>2024-10-29T06:33:12.397800300Z</date>
+  <millis>1730183592397</millis>
+  <nanos>800300</nanos>
+  <sequence>1</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Function call added: methodB -&gt; methodB</message>
+</record>
+<record>
+  <date>2024-10-29T06:33:12.432804800Z</date>
+  <millis>1730183592432</millis>
+  <nanos>804800</nanos>
+  <sequence>2</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>No breakpoints set.</message>
+</record>
+<record>
+  <date>2024-10-29T06:33:12.439804400Z</date>
+  <millis>1730183592439</millis>
+  <nanos>804400</nanos>
+  <sequence>3</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Function called: methodB</message>
+</record>
+<record>
+  <date>2024-10-29T06:33:12.454820200Z</date>
+  <millis>1730183592454</millis>
+  <nanos>820200</nanos>
+  <sequence>4</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Current Call Stack: [methodB]</message>
+</record>
+<record>
+  <date>2024-10-29T06:33:12.462818200Z</date>
+  <millis>1730183592462</millis>
+  <nanos>818200</nanos>
+  <sequence>5</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Called Functions: [methodB]</message>
+</record>
+<record>
+  <date>2024-10-29T06:33:12.468495800Z</date>
+  <millis>1730183592468</millis>
+  <nanos>495800</nanos>
+  <sequence>6</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Stepping into: methodB</message>
+</record>
+<record>
+  <date>2024-10-29T06:33:12.475513800Z</date>
+  <millis>1730183592475</millis>
+  <nanos>513800</nanos>
+  <sequence>7</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>No breakpoints set.</message>
+</record>
+<record>
+  <date>2024-10-29T06:33:12.483511100Z</date>
+  <millis>1730183592483</millis>
+  <nanos>511100</nanos>
+  <sequence>8</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Function called: methodA</message>
+</record>
+<record>
+  <date>2024-10-29T06:33:12.491514600Z</date>
+  <millis>1730183592491</millis>
+  <nanos>514600</nanos>
+  <sequence>9</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Current Call Stack: [methodB, methodA]</message>
+</record>
+<record>
+  <date>2024-10-29T06:33:12.495512700Z</date>
+  <millis>1730183592495</millis>
+  <nanos>512700</nanos>
+  <sequence>10</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Called Functions: [methodA]</message>
+</record>
+<record>
+  <date>2024-10-29T06:33:12.499508200Z</date>
+  <millis>1730183592499</millis>
+  <nanos>508200</nanos>
+  <sequence>11</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Stepping over: methodA</message>
+</record>
+<record>
+  <date>2024-10-29T06:33:12.504514400Z</date>
+  <millis>1730183592504</millis>
+  <nanos>514400</nanos>
+  <sequence>12</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Stepping out of current function.</message>
+</record>
+<record>
+  <date>2024-10-29T06:33:12.515513Z</date>
+  <millis>1730183592515</millis>
+  <nanos>513000</nanos>
+  <sequence>13</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Variable 'x' added with initial value: 10</message>
+</record>
+<record>
+  <date>2024-10-29T06:33:12.525516400Z</date>
+  <millis>1730183592525</millis>
+  <nanos>516400</nanos>
+  <sequence>14</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Breakpoint set at line: 1</message>
+</record>
+<record>
+  <date>2024-10-29T06:33:12.541517700Z</date>
+  <millis>1730183592541</millis>
+  <nanos>517700</nanos>
+  <sequence>15</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Variable 'x' updated: Assignment at line 1 -&gt; 15</message>
+</record>
+<record>
+  <date>2024-10-29T06:33:12.546512200Z</date>
+  <millis>1730183592546</millis>
+  <nanos>512200</nanos>
+  <sequence>16</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Updated Variable: x, New Value: 15</message>
+</record>
+<record>
+  <date>2024-10-29T06:33:12.549507200Z</date>
+  <millis>1730183592549</millis>
+  <nanos>507200</nanos>
+  <sequence>17</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Current Breakpoints:</message>
+</record>
+<record>
+  <date>2024-10-29T06:33:12.553521800Z</date>
+  <millis>1730183592553</millis>
+  <nanos>521800</nanos>
+  <sequence>18</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Breakpoint Id: 1</message>
+</record>
+<record>
+  <date>2024-10-29T06:33:12.560521400Z</date>
+  <millis>1730183592560</millis>
+  <nanos>521400</nanos>
+  <sequence>19</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Breakpoint set at line: 1</message>
+</record>
+<record>
+  <date>2024-10-29T06:33:12.565520400Z</date>
+  <millis>1730183592565</millis>
+  <nanos>520400</nanos>
+  <sequence>20</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>History of 'x':</message>
+</record>
+<record>
+  <date>2024-10-29T06:33:12.571053900Z</date>
+  <millis>1730183592571</millis>
+  <nanos>53900</nanos>
+  <sequence>21</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>  - Initialized: 10</message>
+</record>
+<record>
+  <date>2024-10-29T06:33:12.583050700Z</date>
+  <millis>1730183592583</millis>
+  <nanos>50700</nanos>
+  <sequence>22</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>  - Assignment at line 1: 15</message>
+</record>
+<record>
+  <date>2024-10-29T06:33:12.586052200Z</date>
+  <millis>1730183592586</millis>
+  <nanos>52200</nanos>
+  <sequence>23</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Current value of 'x': 15</message>
+</record>
+<record>
+  <date>2024-10-29T06:33:12.602051700Z</date>
+  <millis>1730183592602</millis>
+  <nanos>51700</nanos>
+  <sequence>24</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Added thread: Low Priority Task with priority: 2</message>
+</record>
+<record>
+  <date>2024-10-29T06:33:12.606053900Z</date>
+  <millis>1730183592606</millis>
+  <nanos>53900</nanos>
+  <sequence>25</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Added thread: High Priority Task with priority: 1</message>
+</record>
+<record>
+  <date>2024-10-29T06:33:13.128731900Z</date>
+  <millis>1730183593128</millis>
+  <nanos>731900</nanos>
+  <sequence>26</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Thread finished: High Priority Task</message>
+</record>
+<record>
+  <date>2024-10-29T06:33:14.139916200Z</date>
+  <millis>1730183594139</millis>
+  <nanos>916200</nanos>
+  <sequence>27</sequence>
+  <logger>SimpleLogger</logger>
+  <level>INFO</level>
+  <class>SimpleLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Thread finished: Low Priority Task</message>
+</record>
+</log>
